@@ -1,0 +1,118 @@
+body{
+   color: black;
+   font-family: 'Noto Serif', serif;
+   text-align: justify;
+}
+
+.background-header{
+  background: #B0C4DE; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #4169E1 , 	#B0C4DE); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #4169E1, 	#B0C4DE); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #4169E1, 	#B0C4DE); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #4169E1 , 	#B0C4DE); /* Standard syntax */
+
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 1rem;
+}
+
+.card {
+     border: 0;
+     margin-right: 1rem;
+     margin-bottom: 1rem;
+     padding:0.75rem;
+}
+
+.card:last-of-type {
+     margin-right: 0rem;
+}
+
+.card:hover{
+  /* background-color: #f0f0f0; */
+  cursor: crosshair;
+  opacity:75%;
+  background: #B0C4DE; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #4169E1 , 	#B0C4DE); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #4169E1, 	#B0C4DE); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #4169E1, 	#B0C4DE); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #4169E1 , 	#B0C4DE); /* Standard syntax */
+}
+
+.sticky-top{
+   background-color: white !important;
+}
+
+.row {
+     --bs-gutter-x: !important;
+   }
+
+.padding-page{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.border-left{
+  border-left: 5px solid #4169E1;
+}
+
+.social i{
+  color: black;
+  padding-left: 0.5rem;
+}
+
+.social i:first-of-type{
+  padding-left: 0;
+}
+
+.social i:hover{
+  color: #4169E1;
+}
+
+.email a:hover{
+  color: #4169E1;
+}
+
+.email a{
+  color: black;
+}
+
+.arrows-down{
+  margin-top: 10rem;
+  color: black;
+}
+
+.arrows-down:hover{
+  color: #4169E1;
+}
+
+/* scollbar*/
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+
+::-webkit-scrollbar-track{
+  background: white;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #B0C4DE;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #B0C4DE; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(top, #4169E1 , 	#B0C4DE); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(under, #4169E1, 	#B0C4DE); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(under, #4169E1, 	#B0C4DE); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to under, #4169E1 , 	#B0C4DE); /* Standard syntax */
+}
+
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3rem;
+    padding-left: .5rem;
+}
+}
